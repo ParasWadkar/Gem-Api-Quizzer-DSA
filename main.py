@@ -12,15 +12,14 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 print("Hello, welcome to the DSA quizzer! Let's get you a problem to solve.")
 print("Tell me the difficulty level of the questions you want to try")
 user_input = input("Enter number or name:\n1. Easy \n2. Medium \n3. Hard\nYou Chose- ")
-print("What topic do you want to practice? (arrays, trees, graphs, etc.): ")
+print("What topic do you want to practice?: ")
 valid_topics = ["arrays", "strings", "trees", "graphs", "linked lists", 
                 "stacks", "queues", "dynamic programming", "recursion", "sorting"]
 
-#validating the topic input 
-print("Available topics:")
 for i, t in enumerate(valid_topics, 1):
     print(f"{i}. {t}")
 
+#validating the topic input 
 topic_input = input("Choose a topic (enter number or name): ").lower().strip()
 
 # check if they typed a number
