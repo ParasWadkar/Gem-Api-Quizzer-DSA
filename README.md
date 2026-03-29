@@ -122,6 +122,5 @@ Here's what I learned during this project:
 - How to connect your `.env` file and a library to build a working program that includes your own custom code.
 
 I decided to explore DSA as a subject, because I'm currently studying the subject, so this is a practical application that will help me learn more about DSA.
----
 
 Built by [Paras Wadkar](https://github.com/ParasWadkar)
