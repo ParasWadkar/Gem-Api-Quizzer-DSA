@@ -2,6 +2,57 @@
 
 A command-line tool to create new DSA practice problems on the fly using the Google Gemini API and get AI-powered feedback on your answers.
 
+## Demo
+```
+$ python main.py
+
+Hello, welcome to the DSA quizzer! Let's get you a problem to solve.
+Tell me the difficulty level of the questions you want to try
+Enter number or name:
+1. Easy
+2. Medium
+3. Hard
+You Chose- easy
+What topic do you want to practice? (arrays, trees, graphs, etc.): 
+Available topics:
+1. arrays
+2. strings
+3. trees
+4. graphs
+5. linked lists
+6. stacks
+7. queues
+8. dynamic programming
+9. recursion
+10. sorting
+Choose a topic (enter number or name): 4
+## Friendship Connection
+
+You are given information about a social network, represented as an undirected graph. Each person is a node, and a friendship between two people is an edge.
+
+Your task is to determine if two specific people, `personA` and `personB`, are connected in the network. This means there exists a path of friendships from `personA` to `personB`.
+
+**Input:**
+
+*   `n`: An integer, representing the total number of people (nodes) ...
+
+Describe your approach to solve this: ill start with personA and keep visiting other nodes till i find personB or till i run out of nodes
+The student's approach is **correct**.
+
+This approach describes a standard graph traversal algorithm, specifically either Breadth-First Search (BFS) or Depth-First Search (DFS). Both of these algorithms are perfectly suited for determining connectivity (reachability) between two nodes in a graph.
+
+---
+
+### Explanation of Correctness:
+
+1.  **Graph Representation:** First, the `friendships` ...
+---
+
+### Time Complexity:
+
+The time complexity for this approach involves...
+```
+
 ## What it does
 
 - Asks you to choose a DSA topic you want to practice
