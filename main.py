@@ -65,3 +65,10 @@ feedback = client.models.generate_content(
 
 #Printing the feedback from the model
 print(feedback.text)
+
+#Asking the user if they want to try another problem
+again = input("\nWant another problem? (yes/no): ")
+if again.lower() == "yes":
+    print("Restart the program to go again!")
+else:
+    print("Thanks for using the DSA quizzer! Goodbye!")
